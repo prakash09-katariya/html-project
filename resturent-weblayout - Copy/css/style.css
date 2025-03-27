@@ -292,7 +292,8 @@
     padding: 2rem;
     background-color: #ffffff;
     border-radius: 1rem;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+    /* box-shadow: 0 0 30px rgba(0, 0, 0, 0.05); */
+    box-shadow: 0 0 15px #d3a7a7;
 }
 .about-content .personal-info  .info-item{
     display: flex;
@@ -374,4 +375,33 @@
   line-height: 24px;
   text-align: right;
 }
+
+.skills-section .skill-box .progress {
+  background-color: color-mix(in srgb, #e87532, transparent 85%);
+  border-radius: 50px;
+  height: 8px;
+  margin-top: 5px;
+  overflow: hidden;
+}
+.skills-section .skill-box .progress .pro{
+  background-color: #e87532;
+  height: 100%;
+  position: relative;
+  border-radius: 50px;
+  transition: 0.9s ;
+  width: 1px;
+}
+
+.skills-section .skill-box .progress:hover .pro{
+  width: 90%
+}
+
 /* skill-section-end */
+
+/* resume-sectio-start */
+
+.work-experience h2{
+
+}
+
+/* resume-section-end */
