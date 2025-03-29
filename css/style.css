@@ -766,6 +766,15 @@
   max-width: 80%;
   color: #0f2943;
 }
+.contact-section .text-content p{
+  font-weight: 300;
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+  line-height: 30px;
+  color: #0a0f14;
+}
+
+.contact-section .text-content .contact-info .info-item
 
 /* contact-section-end */
 
